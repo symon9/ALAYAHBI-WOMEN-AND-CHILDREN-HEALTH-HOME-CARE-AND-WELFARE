@@ -446,3 +446,16 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
+/* ----------------------- */
+#navbar-logo {
+    height: 80px; /* Adjust based on your preference */
+    width: auto;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    #navbar-logo {
+        height: 50px; /* Smaller logo for mobile devices */
+    }
+}
