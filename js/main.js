@@ -20,15 +20,15 @@
     $(window).scroll(function () {
         if ($(window).width() < 992) {
             if ($(this).scrollTop() > 45) {
-                $('.fixed-top').addClass('bg-dark shadow');
+                $('.fixed-top').addClass('bg-light shadow');
             } else {
-                $('.fixed-top').removeClass('bg-dark shadow');
+                $('.fixed-top').removeClass('bg-light shadow');
             }
         } else {
             if ($(this).scrollTop() > 45) {
-                $('.fixed-top').addClass('bg-dark shadow').css('top', -45);
+                $('.fixed-top').addClass('bg-light shadow').css('top', -45);
             } else {
-                $('.fixed-top').removeClass('bg-dark shadow').css('top', 0);
+                $('.fixed-top').removeClass('bg-light shadow').css('top', 0);
             }
         }
     });
