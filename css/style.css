@@ -460,3 +460,14 @@
         height: 60px; /* Smaller logo for mobile devices */
     }
 }
+
+.con-au{
+    display: flex;
+    justify-content: space-between;
+}
+.audios-eh{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1em 0;
+}
