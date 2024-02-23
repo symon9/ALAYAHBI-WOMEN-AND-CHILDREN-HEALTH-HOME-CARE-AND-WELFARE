@@ -471,3 +471,8 @@
     justify-content: space-between;
     margin: 1em 0;
 }
+
+#navbar-footer-logo{
+    width: 80%;
+    height: auto;
+}
