@@ -51,6 +51,23 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
+    <style>
+      .image-container {
+        margin-bottom: 20px;
+      }
+      .image-container img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+      .image-title {
+        text-align: center;
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+    </style>
   </head>
 
   <body>
@@ -228,12 +245,31 @@
     </div>
     <!-- Service End -->
 
+    <!-- Pic start -->
+    <div class="container mt-5 mb-3">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="image-container">
+            <img src="./img/imgs/Ruda-Yausa-Community-Bauchi-State.jpg" alt="Ruda Yausa Community Bauchi State." class="img-fluid">
+            <p class="image-title">Ruda Yausa Community Bauchi State.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="image-container">
+            <img src="./img/imgs/Alayahbi-NGO-Farm-at-Gubi-Bauchi-State.jpg" alt="Alayahbi NGO Farm at Gubi, Bauchi State" class="img-fluid">
+            <p class="image-title">Alayahbi NGO Farm at Gubi, Bauchi State</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Pic end -->
+
     <!-- Video Start -->
     <div class="container mt-5">
       <div class="row">
         <div class="col-md-4">
           <div class="ratio ratio-1x1 mb-3">
-            <video controls>
+            <video controls style="border-radius: 8px;">
               <source src="videos/video1.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -241,7 +277,7 @@
         </div>
         <div class="col-md-4">
           <div class="ratio ratio-1x1 mb-3">
-            <video controls>
+            <video controls style="border-radius: 8px;">
               <source src="videos/video2.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -249,7 +285,7 @@
         </div>
         <div class="col-md-4">
           <div class="ratio ratio-1x1 mb-3">
-            <video controls>
+            <video controls style="border-radius: 8px;">
               <source src="videos/video3.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
